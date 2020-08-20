@@ -2,6 +2,8 @@
 
 > website project
 
+> 一个简单的 koa2 mvc 框架
+
 ## Build Setup
 
 ``` bash
