@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": false,
+  "author": "ca_lei@live.cn",
+  "license": "website Project",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon ./starter/web.js",
+    "pro": "cross-env NODE_ENV=production node ./web.js"
+  },
+  "dependencies": {
+    "art-template": "4.13.2",
+    "cross-env": "7.0.2",
+    "dotenv": "8.2.0",
+    "koa": "2.13.0",
+    "koa-art-template": "1.1.1",
+    "koa-bodyparser": "4.3.0",
+    "koa-router": "9.1.0",
+    "koa-session": "6.0.0",
+    "koa-static-cache": "5.1.4",
+    "koa-xml-body": "2.2.0",
+    "lodash": "4.17.19",
+    "pino": "6.3.2",
+    "stoppable": "1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
